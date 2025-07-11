@@ -1,0 +1,68 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/cubes.png');
+  background-color: #f3f4f6;
+  color: #1f2937;
+  height: 100vh;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  position: relative;
+  background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6366f1;
+}
+
+.signup-btn {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* .hero-content { */
+/* margin-top: 100px;  } */
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
